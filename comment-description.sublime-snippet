@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${1:Short description using Doxygen-style comment format}
+ *
+ * ${2:The first sentence of the long description starts here and continues on this line for a while finally concluding here at the end of this paragraph.}
+ *
+ * ${3:The long description is ideal for more detailed explanations and documentation. It can include example HTML, URLs, or any other information that is deemed necessary or useful.}
+ *
+ * ${4:@tag This is a tag named 'tag'}
+ *
+ * ${5:TODO: This is a todo statement that describes an atomic task to be completed at a later date. It wraps after 80 characters and following lines are indented by 2 spaces.}
+ */
+
+${6}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>comment-description</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.css, source.less, source.scss, source.sass, source.stylus</scope>
+</snippet>
